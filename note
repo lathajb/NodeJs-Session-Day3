@@ -1,7 +1,7 @@
 
 Day-3: sumeetWajpe - github
 
-https://github.com/sumeetWajpe/Sapient_Node_Aug_2018
+https://github.com/sumeetWajpe/Sapient_Node_Aug_2018 - refer project
 ======
 
 View Engines/templates: emiting out the html based on data from database  -- server side
@@ -51,3 +51,59 @@ Node js - passport js - npm install
 
 
 Strategies - current user name and password uses - local strategy
+
+Passport app :
+------------
+
+user name :admin
+
+pwd : secret
+
+Micro services: problem -  request hoping 
+--------------
+
+1. Monolithic - Problem -   1. tightly coupled  - 
+                            2. Maintance
+                            3. Non modular
+                            4. Non scalable - need to scale at all levels
+
+2. SOA - Service oriented Architecture  - feature intentive unit - its have only services not ui
+                            1. it is not self contained
+                            2. not fully fain grained 
+
+3. Microservices - specialization of soa - task intentive unit - its have its own ui, service, db (same host space different apps takling each other)
+                            1. Its not depened on technology stack
+                            2. spead of delivery
+                            3. scalability 
+                            4. Innovation/experimentation
+
+
+Distributed System : consistency
+                     Transaction
+                    request travelling
+
+        slow(http)
+        requires on ecosystem
+
+        Api gateway - Zuul - Insulates direct location of services
+
+        Load balancer : Ribbon (java) - node - Nginx
+
+
+
+        Microservices (rest/json) - full fleged combined application
+        Cloud /Docker (container) - gives infrastructure (Deploy)
+        API gateway - communication api
+
+
+        Download Docker tool box : install it
+
+        docker shortcut and kitematics will come
+
+        docker-compose up
+
+        kitemateics - search for node - click on create do for mongo and nginx also
+
+
+Gulp - npm i gulp npm i gulp-minify
+
