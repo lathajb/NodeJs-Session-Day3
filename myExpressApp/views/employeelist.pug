@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    h3 List of Employees
+    ul
+        each employee in employeeList
+            li #{employee.firstname}, #{employee.lastName}

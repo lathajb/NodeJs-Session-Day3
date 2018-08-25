@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    h3 List of Products
+    ul
+        each product in productList
+            li #{product.name}, #{product.price}

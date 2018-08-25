@@ -1,0 +1,53 @@
+
+Day-3: sumeetWajpe - github
+
+https://github.com/sumeetWajpe/Sapient_Node_Aug_2018
+======
+
+View Engines/templates: emiting out the html based on data from database  -- server side
+
+    1. Jade/Pug
+    2. Handlebar
+    3. ejs - embeded java script
+
+Express generator - create an express application - gives us express.exe - utility using it we can generate express application
+
+    1.npm install -g express-generator
+
+    2. express --view=pug myExpressApp
+
+    3. change directory - cd myExpressApp
+
+    4. install dependencies - npm install
+
+    5. run SET DEBUG=myexpressapp:* & npm start
+
+
+MongoDb Server :
+
+Mongo Client (Shell)
+
+
+  1. mongod -- add path in env
+
+  2. mongo - Client
+
+  3. Robo 3T and Mongo Compass
+
+
+In Client side - npm install mongodb@2.2.30
+
+Mongoose - Object Data mapper - ODM
+
+Models - schema
+
+
+passport - Authentication
+
+OAuth /OAuth2 - Autherization
+
+
+Node js - passport js - npm install 
+
+
+Strategies - current user name and password uses - local strategy
